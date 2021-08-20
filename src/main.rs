@@ -19,7 +19,7 @@ fn bin_search_for_index(
 ) -> Option<f32> {
     // find the middle of the array
     if end_index >= starting_index {
-        // take the starting index + the end index
+        // find mid index
         let mid_index = starting_index as f32 + (((end_index - starting_index) / 2) as f32).floor();
 
         // check if this middle value is equal to the target
